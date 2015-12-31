@@ -1,1 +1,5 @@
 src
+.babelrc
+dev.js
+conf/*
+!conf/sample.toml

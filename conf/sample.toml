@@ -4,5 +4,5 @@ port = 3000
 
 [admin]
 portIndex = 0
-module = "node_modules/baod.io-admin"
+module = "baod.io-admin"
 blogPath = "../baod.io"
