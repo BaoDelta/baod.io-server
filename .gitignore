@@ -1,0 +1,5 @@
+lib
+conf/*
+!conf/sample.toml
+node_modules/*
+!node_modules/app

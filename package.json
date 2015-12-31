@@ -1,0 +1,36 @@
+{
+  "name": "baod.io-server",
+  "version": "1.0.0",
+  "description": "Server app for http://baod.io",
+  "main": "lib/node_modules/app",
+  "scripts": {
+    "compile": "babel -d lib src",
+    "prepublish": "in-publish && npm run compile || not-in-publish",
+    "check": "ncu",
+    "dev": "node dev | bunyan -o short -L"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BaoDelta/baod.io-server.git"
+  },
+  "author": "Bao Dang <dangvinhbao@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BaoDelta/baod.io-server/issues"
+  },
+  "homepage": "https://github.com/BaoDelta/baod.io-server#readme",
+  "dependencies": {
+    "baod.io-admin": "^1.0.0",
+    "bunyan": "^1.5.1",
+    "hapi": "^11.1.4",
+    "toml": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.3.17",
+    "babel-core": "^6.3.26",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "in-publish": "^2.0.0",
+    "npm-check-updates": "^2.5.6"
+  }
+}

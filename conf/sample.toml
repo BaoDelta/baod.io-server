@@ -1,0 +1,8 @@
+[server]
+host = "localhost"
+port = 3000
+
+[admin]
+portIndex = 0
+module = "node_modules/baod.io-admin"
+blogPath = "../baod.io"
