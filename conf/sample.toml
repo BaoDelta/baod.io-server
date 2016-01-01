@@ -4,8 +4,9 @@ port = 3000
 
 [auth]
 cookiePassword = COOKIE_PASSWORD
+# cookieDomain = "baod.io"
 sessionTimeout = 24
-isSecure       = false
+isSecure = false
 
 [admin]
 portIndex = 0
