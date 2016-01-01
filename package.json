@@ -2,6 +2,7 @@
   "name": "baod.io-server",
   "version": "1.0.1",
   "description": "Server app for http://baod.io",
+  "private": true,
   "main": "lib/node_modules/app",
   "scripts": {
     "compile": "babel -d lib src",
@@ -23,6 +24,7 @@
     "baod.io-admin": "^1.0.0",
     "bunyan": "^1.5.1",
     "hapi": "^11.1.4",
+    "hapi-auth-cookie": "^3.1.0",
     "toml": "^2.3.0"
   },
   "devDependencies": {

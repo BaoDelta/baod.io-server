@@ -2,7 +2,13 @@
 host = "localhost"
 port = 3000
 
+[auth]
+cookiePassword = COOKIE_PASSWORD
+sessionTimeout = 24
+isSecure       = false
+
 [admin]
 portIndex = 0
 module = "baod.io-admin"
 blogPath = "../baod.io"
+auth = { ADMIN_USERNAME = ADMIN_PASSWORD_MD5 }
